@@ -12,6 +12,8 @@ Stateless ve stateful widget yapısı sayfa geçişleri route arguments ve gridv
 Projeyi test etmek için terminalde şu komutu çalıştırabilirsiniz
 `flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0`
 
+Not: Uygulama ilk kez başlatıldığında tarayıcı senkronizasyonu nedeniyle sayfa boş görünebilir. Böyle bir durumda sayfayı yenilemeniz yeterlidir.
+
 ## Ekran Görüntüleri
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/dfe01349-2665-4902-9630-cc0bfb1a1148" />
 <img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/2550e9af-35bb-4246-bfbd-881afb523b43" />
