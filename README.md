@@ -1,17 +1,16 @@
-# flutter_mini_project
+# Mini Katalog Uygulaması
 
-A new Flutter project.
+## Proje Açıklaması
+Bu proje flutter eğitimi kapsamında geliştirilmiş temel bir mobil uygulama taslağıdır
+Stateless ve stateful widget yapısı sayfa geçişleri route arguments ve gridview kullanılarak hazırlanmıştır veri yönetimi lokal olarak simüle edilmiştir
 
-## Getting Started
+## Kullanılan Teknolojiler
+- Flutter
+- Sadece material kütüphanesi kullanılmıştır ekstra paket yoktur
 
-This project is a starting point for a Flutter application.
+## Çalıştırma Adımları
+Projeyi test etmek için terminalde şu komutu çalıştırabilirsiniz
+`flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ekran Görüntüleri
+*(ekran görüntülerini buraya ekleyin)*
