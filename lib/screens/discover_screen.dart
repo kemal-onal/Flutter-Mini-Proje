@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/product.dart';
+import '../widgets/product_card.dart';
 
 class DiscoverScreen extends StatelessWidget {
   @override
@@ -29,26 +30,7 @@ class DiscoverScreen extends StatelessWidget {
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, crossAxisSpacing: 10, mainAxisSpacing: 10, childAspectRatio: 0.75),
               itemCount: mockProducts.length,
               itemBuilder: (context, index) {
-                final product = mockProducts[index];
-                return GestureDetector(
-                  onTap: () => Navigator.pushNamed(context, '/detail', arguments: product),
-                  child: Card(
-                    child: Column(
-                      children: [
-                        Expanded(child: Image.network(product.image, fit: BoxFit.cover)),
-                        Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Column(
-                            children: [
-                              Text(product.name, style: TextStyle(fontWeight: FontWeight.bold)),
-                              Text("\$${product.price}"),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                );
+                return ProductCard(product: mockProducts[index]);
               },
             ),
           ],
